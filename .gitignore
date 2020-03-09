@@ -1,0 +1,7 @@
+# environment
+.DS_Store
+.vscode/
+
+# local files
+postApp/migrations/*
+
