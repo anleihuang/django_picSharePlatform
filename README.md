@@ -7,11 +7,11 @@ Developed a picture sharing platform through Django MVC pattern which provides t
 - Like & Comment
 - Follow and Unfollow users
 
-![platform](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/pic_share_platform.gif width="800" height="600")
+![platform](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/pic_share_platform.gif)
 
 Additionally, API is developed for users to create, read, update, and delete a post and create and read a user profile.
 
-![API](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/API_example.gif width="800" height="600")
+![API](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/API_example.gif)
 
 ## Architecture
 - Used Postgresql server to store metadata (such as Post table, User table, Friendship table, Like table and Follow table)
@@ -20,7 +20,7 @@ Additionally, API is developed for users to create, read, update, and delete a p
 (more [details about connect Django to S3](https://django-storages.readthedocs.io/en/latest/backends/amazon-S3.html))
 - Set up S3 endpoint so that the django web service can connect to the private S3 bucket (more [details about Amazon endpoint setup](https://aws.amazon.com/premiumsupport/knowledge-center/s3-private-connection-no-authentication/) )
 - Developed APIs through Django REST Framework (DRF) to connect the Postgresql backend
-![infra](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/infra.png width="800" height="600")
+<img src="https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/infra.png"  width="800" height="600">
 
 
 ## API
@@ -54,10 +54,10 @@ Get info of this user (which the user pk is 7)
 
 
 ## Postgresl Results
-![psql1](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/psql_1.png width="400" height="300")
-![psql2](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/psql_2.png width="400" height="300")
-![psql3](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/psql_3.png width="400" height="300")
-![psql4](https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/psql_4.png width="400" height="300")
+<img src="https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/psql_1.png"  width="400" height="300">
+<img src="https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/psql_2.png"  width="400" height="300">
+<img src="https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/psql_3.png"  width="400" height="300">
+<img src="https://github.com/anleihuang/django_picSharePlatform/blob/master/docs/psql_4.png"  width="400" height="300">
 
 ## Installation
 ```
