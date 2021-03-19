@@ -5,7 +5,7 @@ django-annoying==0.10.6
 django-appconf==1.0.3
 django-imagekit==4.0.2
 django-storages==1.9.1
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 django==3.0.4
 docutils==0.15.2
 jmespath==0.9.5
