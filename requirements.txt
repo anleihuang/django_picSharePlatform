@@ -10,7 +10,7 @@ django==3.0.4
 docutils==0.15.2
 jmespath==0.9.5
 pilkit==2.0
-pillow==7.0.0
+pillow==9.3.0
 psycopg2-binary==2.8.4
 python-dateutil==2.8.1
 pytz==2019.3
